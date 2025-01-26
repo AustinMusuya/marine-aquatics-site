@@ -3,6 +3,9 @@ import bgVideo from "./assets/aquariumvideo.mp4";
 import NavBar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
+import Banner from "./components/Banner/Banner";
+import Banner2 from "./components/Banner/Banner2";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -15,10 +18,13 @@ const App = () => {
         className="fixed right-0 top-0 h-[700[px] w-full object-cover z[-1]">
           <source src={bgVideo} type="video/mp4"/>
         </video>
-        <NavBar/>
-        <Hero/>
+        <NavBar />
+        <Hero />
         {/* Services Card Section */}
-        <Services/>
+        <Services />
+        <Banner />
+        <Banner2 />
+        <Footer />
       </div> 
     </div>
   )
