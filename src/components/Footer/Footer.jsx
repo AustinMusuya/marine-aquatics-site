@@ -15,12 +15,12 @@ const Footer = () => {
           {/* first column */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3">
-              Be Ready To Grow
+              Request Our Stocklist
             </h1>
             <p className="text-gray-400">
-              Get exclusive{" "}
-              <span className=" text-white font-bold "> best update</span>{" "}
-              straight to your inbox.{" "}
+              Get latest{" "}
+              <span className=" text-white font-bold "> stocklist updates</span>{" "}
+              straight to your mailbox.{" "}
             </p>
             <br />
             <div className="flex items-center h-10">
