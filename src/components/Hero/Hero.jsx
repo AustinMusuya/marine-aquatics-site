@@ -7,12 +7,14 @@ const Hero = () => {
         <div className="h-full flex justify-center items-center p-4">
             <div className="container grid grif-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-4 lg:pr-36">
-                <h1 className="text-5xl font-bold">Explore the World of Live Ornamental Fish</h1>
-                <p>
+                <h1 data-aos="fade-up" className="text-5xl font-bold">Explore the World of Live Ornamental Fish</h1>
+                <p data-aos="fade-up" data-aos-delay="300">
                     Discover vibrant, exotic fish species shipped with care and precision. We ensure safe, reliable delivery with unbeatable rates and IATA-approved handling.
                 </p>
 
-                    <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-2 rounded-md duration-200">
+                    <button 
+                    data-aos="fade-up" data-aos-delay="300" 
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105">
                         Learn More
                     </button>
                 </div>
