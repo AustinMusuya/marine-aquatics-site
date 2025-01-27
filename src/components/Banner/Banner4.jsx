@@ -1,5 +1,5 @@
 // import React from 'react'
-import fish from "../../assets/fish.png"
+import aquarium from "../../assets/aquariumSite.jpg"
 
 const Banner4 = () => {
   return (
@@ -21,14 +21,14 @@ const Banner4 = () => {
                     Integrity: We build trust through transparent and reliable processes.
                     Customer Focus: We prioritize your needs, ensuring a seamless shipping experience from start to finish.
                     </p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105">
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer">
                         Learn More
                     </button>
                 </div>
                 <div data-aos="zoom-in">
-                    <img src={fish} 
+                    <img src={aquarium} 
                     alt=""
-                    className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover" />
+                    className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-lg" />
                 </div>
             </div>
         </div>

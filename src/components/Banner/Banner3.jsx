@@ -1,5 +1,5 @@
 // import React from 'react'
-import fish from "../../assets/fish.png"
+import jellyfish from "../../assets/jellyfish.jpg"
 
 const Banner3 = () => {
   return (
@@ -7,9 +7,9 @@ const Banner3 = () => {
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div data-aos="zoom-in">
-                    <img src={fish} 
+                    <img src={jellyfish} 
                     alt=""
-                    className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover" />
+                    className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-lg" />
                 </div>
                 <div className="space-y-3 xl:pr-36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800">
                     <p data-aos="fade-up" data-aos-delay="300"  
@@ -25,7 +25,7 @@ const Banner3 = () => {
                         setting the gold standard in reliability, innovation, 
                         and customer satisfaction.
                     </p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105">
+                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer">
                         Learn More
                     </button>
                 </div>

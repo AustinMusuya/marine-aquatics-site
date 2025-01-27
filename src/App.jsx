@@ -12,35 +12,43 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 
 const App = () => {
-  React.useEffect(()=>{
+  React.useEffect(() => {
     AOS.init({
-      duration:1200,
+      duration: 1200,
       easing: "ease-in-out",
-    })
-  });
+    });
+  }, []);
 
   return (
     <div>
-      <div className="h-[700px] relative">
-        <video
-        autoPlay
-        loop
-        muted
-        className="fixed right-0 top-0 h-[700[px] w-full object-cover z[-1]">
-          <source src={bgVideo} type="video/mp4"/>
-        </video>
-        <NavBar />
-        <Hero />
-        {/* Services Card Section */}
-        <Services />
-        <Banner />
-        <Banner2 />
-        <Banner3 />
-        <Banner4 />
+      {/* Adjust the height to prevent overflow */}
+      <div className="min-h-screen flex flex-col">
+        {/* Hero Section */}
+        <div className="h-[700px] relative">
+          <video
+            autoPlay
+            loop
+            muted
+            className="absolute right-0 top-0 h-full w-full object-cover z-[-1]"
+          >
+            <source src={bgVideo} type="video/mp4" />
+          </video>
+          <NavBar />
+          <Hero />
+        </div>
+        {/* Main Content */}
+        <main className="flex-grow">
+          <Services />
+          <Banner />
+          <Banner2 />
+          <Banner3 />
+          <Banner4 />
+        </main>
+        {/* Footer Section */}
         <Footer />
-      </div> 
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default App
