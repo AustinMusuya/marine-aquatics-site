@@ -36,6 +36,8 @@ const Services = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10">
                 {ServiceData.map((data, index) => (
                     <div
+                        data-aos="fade-up"
+                        data-aos-delay={data.aosDelay}
                         key={index}
                         className="min-h-[180px] flex flex-col gap-4 justify-center items-center
                                 bg-sky-900/60 rounded-xl backdrop-blur-sm 
