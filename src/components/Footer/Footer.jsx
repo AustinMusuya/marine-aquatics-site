@@ -3,7 +3,11 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdCall, MdMessage } from "react-icons/md";
 
+
+
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
   return (
     <div className="bg-gray-800 ">
       <section className="max-w-[1200px] mx-auto text-white">
@@ -25,8 +29,8 @@ const Footer = () => {
                 type="text"
                 placeholder="Email"
               />
-              <button className="bg-orange-500 hover:bg-orange-500/75 h-full inline-block py-2 px-6 text-white">
-                Ok
+              <button className="bg-orange-500 hover:bg-orange-500/75 h-full inline-block py-2 px-6 text-white cursor-pointer">
+                Submit
               </button>
             </div>
           </div>
@@ -67,15 +71,15 @@ const Footer = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3">
                     <HiLocationMarker />
-                    <p>Noida, Uttar Pradesh</p>
+                    <p>Mombasa, Kenya</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
                     <MdMessage />
-                    <p>abc@gmail.com</p>
+                    <p>info@marineaquaticskenya.co.ke</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
                     <MdCall />
-                    <p>+91 123456789</p>
+                    <p>+254 XXX-XXX-XXX</p>
                   </div>
                 </div>
               </div>
@@ -84,9 +88,9 @@ const Footer = () => {
         </div>
         <div className="hidden sm:block">
           <div className="flex justify-between items-center text-center py-6 border-t-2 border-gray-300/40">
-            <span className="text-sm text-gray-400">
-              @copyright 2024 Travery || Dilshad
-            </span>
+            <p className="text-sm text-gray-400">
+            Copyright ©  {currentYear} Marine Aquatics Kenya ||
+            </p>
             <div className="flex items-center justify-center gap-4 mb-4">
               <a href="#">
                 <FaInstagram className="text-4xl" />
