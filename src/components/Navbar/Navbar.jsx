@@ -20,13 +20,13 @@ const Navbar = () => {
           <div className="hidden sm:flex text-white">
             <ul className="flex items-center gap-6 text-xl py-4 sm:py-0">
               <li className="cursor-pointer">
-                <a href="#">About Us</a>
+                <a href="#">About</a>
               </li>
               <li className="cursor-pointer">
                 <a href="#services">Services</a>
               </li>
               <li className="cursor-pointer">
-                <a href="#footer">Contact Us</a>
+                <a href="#footer">Contacts</a>
               </li>
             </ul>
           </div>
