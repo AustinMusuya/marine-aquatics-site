@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
-    <div data-aos="fade-down" className="fixed top-0 right-0 w-full z-50 bg-black/10 backdrop-blur-sm py-4 sm:py-4">
+    <div data-aos="fade-down" className="fixed top-0 right-0 w-full z-60 bg-black/10 backdrop-blur-sm py-4 sm:py-4">
       <div className="container">
         <div className="flex justify-between items-center">
           {/* Logo Section */}
@@ -51,7 +51,7 @@ const Navbar = () => {
 
         {/* Small Screen Overlay */}
         {toggleMenu && (
-          <div className="fixed top-0 left-0 w-full h-full bg-black/90 text-white flex flex-col justify-center items-center">
+          <div className="fixed top-0 left-0 w-full h-full z-60 bg-black/90 text-white flex flex-col justify-center items-center">
             <FaCocktail
               fontSize={27}
               className="absolute top-4 right-4 cursor-pointer"
