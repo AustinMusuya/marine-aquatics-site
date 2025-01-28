@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import bgVideo from "./assets/aquariumvideo.mp4";
-import jellyfish from "./assets/jellyfish.jpg"; // Add a placeholder image
+import underwater2 from "./assets/underwater2.jpg"; // Add a placeholder image
 import NavBar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
@@ -31,7 +31,7 @@ const App = () => {
           {/* Placeholder Image */}
           {isVideoLoading && (
             <img
-              src={jellyfish}
+              src={underwater2}
               alt="Background placeholder"
               className="absolute right-0 top-0 h-full w-full object-cover z-[-1]"
             />
