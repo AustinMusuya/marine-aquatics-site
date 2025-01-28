@@ -1,6 +1,6 @@
 import React from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { FaCocktail } from 'react-icons/fa';
+import { FaFish } from 'react-icons/fa';
 import Logo from '../../assets/logo.png';
 
 const Navbar = () => {
@@ -51,15 +51,15 @@ const Navbar = () => {
 
         {/* Small Screen Overlay */}
         {toggleMenu && (
-          <div className="fixed top-0 left-0 w-full h-full z-60 bg-black/90 text-white flex flex-col justify-center items-center">
-            <FaCocktail
+          <div className="fixed top-0 left-0 w-screen h-screen bg-black/90 text-white flex flex-col justify-center items-center z-60">
+            <FaFish
               fontSize={27}
               className="absolute top-4 right-4 cursor-pointer"
               onClick={() => setToggleMenu(false)}
             />
             <ul className="flex flex-col items-center gap-6 text-xl">
               <li>
-                <a href="#" onClick={() => setToggleMenu(false)}>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
                   About Us
                 </a>
               </li>
