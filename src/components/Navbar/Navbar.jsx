@@ -1,19 +1,26 @@
-import React from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { FaFish } from 'react-icons/fa';
-import Logo from '../../assets/logo.png';
+import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaFish } from "react-icons/fa";
+import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
-    <div data-aos="fade-down" className="fixed top-0 right-0 w-full z-60 bg-black/10 backdrop-blur-sm py-4 sm:py-4">
+    <div
+      data-aos="fade-down"
+      className="fixed top-0 right-0 w-full z-60 bg-black/10 backdrop-blur-sm py-4 sm:py-4"
+    >
       <div className="container">
         <div className="flex justify-between items-center">
           {/* Logo Section */}
           <div className="flex items-center gap-4 text-white font-bold text-2xl">
-            <a href="#home"><img src={Logo} alt="logo" className="w-20" /></a>
-            <a href="#home"><span className="text-white">Marine Aquatics Kenya</span></a>
+            <a href="#home">
+              <img src={Logo} alt="logo" className="w-20" />
+            </a>
+            <a href="#home">
+              <span className="text-white">Marine Aquatics Kenya</span>
+            </a>
           </div>
 
           {/* Navigation Links (Hidden on Small Screens) */}
@@ -51,7 +58,11 @@ const Navbar = () => {
 
         {/* Small Screen Overlay */}
         {toggleMenu && (
-          <div className="fixed top-0 left-0 w-screen h-screen bg-black/90 text-white flex flex-col justify-center items-center z-60">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="100"
+            className="fixed top-0 left-0 w-screen h-screen bg-black/90 text-white flex flex-col justify-center items-center z-60"
+          >
             <FaFish
               fontSize={27}
               className="absolute top-4 right-4 cursor-pointer"
