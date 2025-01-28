@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import bgVideo from "./assets/aquariumvideo.mp4";
 import underwater2 from "./assets/underwater2.jpg"; // Add a placeholder image
 import NavBar from "./components/Navbar/Navbar";
@@ -13,9 +13,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const App = () => {
-  const [isVideoLoading, setIsVideoLoading] = useState(true);
+  const [isVideoLoading, setIsVideoLoading] = React.useState(true);
 
-  useEffect(() => {
+  React.useEffect(() => {
     AOS.init({
       duration: 1200,
       easing: "ease-in-out",
@@ -27,7 +27,7 @@ const App = () => {
       {/* Adjust the height to prevent overflow */}
       <div className="min-h-screen flex flex-col">
         {/* Hero Section */}
-        <div className="h-[700px] relative">
+        <div className="h-[700px] relative" id="home">
           {/* Placeholder Image */}
           {isVideoLoading && (
             <img
