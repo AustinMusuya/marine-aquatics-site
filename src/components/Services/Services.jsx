@@ -30,7 +30,7 @@ const ServiceData = [
 ]
 const Services = () => {
   return (
-    <div className="bg-black text-white relative z-50">
+    <div className="bg-black text-white relative z-50" id="services">
         <div className="container">
             <div className="min-h-[400px]">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10">

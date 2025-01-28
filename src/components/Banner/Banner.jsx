@@ -3,7 +3,7 @@ import livefishcargo from "../../assets/livefishcargo.jpg"
 
 const Banner = () => {
   return (
-    <div className="bg-black text-white pb-12 relative z-50">
+    <div className="bg-black text-white pb-12 relative z-50" id="about">
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div data-aos="zoom-in">

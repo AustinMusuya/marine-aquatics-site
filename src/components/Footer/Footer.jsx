@@ -9,7 +9,7 @@ const Footer = () => {
 
   const currentYear = new Date().getFullYear();
   return (
-    <div className="bg-gray-800 ">
+    <div className="bg-gray-800" id="contact">
       <section className="max-w-[1200px] mx-auto text-white">
         <div className=" grid md:grid-cols-3 py-5">
           {/* first column */}
