@@ -1,5 +1,5 @@
 // import React from 'react'
-import livefishcargo from "../../assets/livefishcargo.jpg"
+import aquarium from "../../assets/aquariumSite.jpg"
 
 const Banner = () => {
   return (
@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div data-aos="zoom-in">
-                    <img src={livefishcargo} 
+                    <img src={aquarium} 
                     alt=""
                     className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-lg" />
                 </div>
