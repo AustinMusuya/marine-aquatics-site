@@ -30,6 +30,9 @@ const Navbar = () => {
                 <a href="#about">About</a>
               </li>
               <li className="cursor-pointer">
+                <a href="#products">Products</a>
+              </li>
+              <li className="cursor-pointer">
                 <a href="#services">Services</a>
               </li>
               <li className="cursor-pointer">
@@ -72,6 +75,11 @@ const Navbar = () => {
               <li>
                 <a href="#about" onClick={() => setToggleMenu(false)}>
                   About Us
+                </a>
+              </li>
+              <li>
+                <a href="#products" onClick={() => setToggleMenu(false)}>
+                  Products
                 </a>
               </li>
               <li>
