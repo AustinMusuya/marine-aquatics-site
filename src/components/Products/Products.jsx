@@ -4,6 +4,10 @@ import Img3 from "../../assets/products/fish3.jpg";
 import Img4 from "../../assets/products/fish4.jpg";
 import Img5 from "../../assets/products/fish2.jpg";
 import Img6 from "../../assets/products/invert2.jpg";
+import Img7 from "../../assets/products/seahorse.jpg";
+import Img8 from "../../assets/products/fish5.jpg";
+import Img9 from "../../assets/products/fish6.jpg";
+import Img10 from "../../assets/products/fish7.jpg";
 import { FaStar } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
@@ -21,7 +25,7 @@ const ProductsData = [
     img: Img2,
     title: "Acanthaster planci",
     rating: 4.5,
-    color: "Red",
+    color: "Red-White",
     aosDelay: "200",
   },
   {
@@ -43,18 +47,50 @@ const ProductsData = [
   {
     id: 5,
     img: Img5,
-    title: "Betta splendens",
+    title: "Angel Fish",
     rating: 4.5,
-    color: "Pink",
+    color: "Gold",
     aosDelay: "800",
   },
   {
-    id: 5,
+    id: 6,
     img: Img6,
-    title: "Sea anemone",
+    title: "Sea Anemone",
     rating: 5.0,
     color: "White",
-    aosDelay: "1000",
+    aosDelay: "0",
+  },
+  {
+    id: 7,
+    img: Img7,
+    title: "Lined Seahorse",
+    rating: 4.0,
+    color: "Brown",
+    aosDelay: "200",
+  },
+  {
+    id: 8,
+    img: Img8,
+    title: "Yellow Tang",
+    rating: 5.0,
+    color: "Yellow",
+    aosDelay: "400",
+  },
+  {
+    id: 9,
+    img: Img9,
+    title: "Zebra Shark",
+    rating: 5.0,
+    color: "Brown",
+    aosDelay: "600",
+  },
+  {
+    id: 10,
+    img: Img10,
+    title: "Lion Fish",
+    rating: 4.4,
+    color: "Black-White",
+    aosDelay: "800",
   },
 ];
 
@@ -89,10 +125,10 @@ const Products = () => {
               <img
                 src={data.img}
                 alt={data.title}
-                className="h-[220px] w-full object-cover rounded-md"
+                className="h-[220px] w-full object-cover rounded-md cursor-pointer"
               />
               <div className="text-center mt-2">
-                <h3 className="font-semibold text-lg">{data.title}</h3>
+                <h3 className="font-semibold text-lg cursor-pointer">{data.title}</h3>
                 <p className="text-sm text-gray-400">Color: {data.color}</p>
                 <div className="flex items-center justify-center gap-1">
                   <FaStar className="text-yellow-400" />

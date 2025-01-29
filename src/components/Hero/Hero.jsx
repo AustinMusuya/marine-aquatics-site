@@ -23,14 +23,14 @@ const Hero = () => {
               precision. We ensure safe, reliable delivery with unbeatable rates
               and IATA-approved handling.
             </p>
-
+            <a href="#products">
             <button
               data-aos="fade-up"
               data-aos-delay="300"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer"
+              className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer"
             >
-              Learn More
-            </button>
+              Explore Collection
+            </button></a>
           </div>
         </div>
       </div>

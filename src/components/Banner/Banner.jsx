@@ -29,9 +29,9 @@ const Banner = () => {
                         ensures every shipment arrives healthy and stress-free, 
                         ready to bring life and color to aquariums around the globe.
                     </p>
-                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer">
+                    {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-transform hover:scale-105 cursor-pointer">
                         Learn More
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

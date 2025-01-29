@@ -25,7 +25,7 @@ const Navbar = () => {
 
           {/* Navigation Links (Hidden on Small Screens) */}
           <div className="hidden sm:flex text-white">
-            <ul className="flex items-center gap-6 text-xl py-4 sm:py-0">
+            <ul className="flex items-center gap-4 text-xl py-4 sm:py-0">
               <li className="cursor-pointer">
                 <a href="#about">About</a>
               </li>
@@ -42,11 +42,11 @@ const Navbar = () => {
           </div>
 
           {/* Login Button (Hidden on Small Screens) */}
-          <div className="hidden sm:block">
+          {/* <div className="hidden sm:block">
             <button className="text-white border-2 border-white px-3 py-1 rounded-md cursor-pointer">
               Login
             </button>
-          </div>
+          </div> */}
 
           {/* Hamburger Menu (Visible on Small Screens) */}
           <div className="sm:hidden">
@@ -92,14 +92,14 @@ const Navbar = () => {
                   Contact Us
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() => setToggleMenu(false)}
                   className="text-white border-2 border-white px-3 py-1 rounded-md"
                 >
                   Login
                 </button>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}

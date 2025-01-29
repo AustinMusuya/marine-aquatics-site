@@ -1,7 +1,7 @@
 // import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import { MdCall, MdMessage } from "react-icons/md";
+import { MdCall, MdEmail } from "react-icons/md";
 
 
 
@@ -40,17 +40,18 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
+                  Quick Links
                 </h1>
                 <ul className={`flex flex-col gap-3 `}>
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
-                  <li className="cursor-pointer">Login</li>
+                  <li className="cursor-pointer"><a href="#home">Home</a></li>
+                  <li className="cursor-pointer"><a href="#about">About</a></li>
+                  <li className="cursor-pointer"><a href="#products">Products</a></li>
+                  <li className="cursor-pointer"><a href="#services">Services</a></li>
+                  {/* <li className="cursor-pointer">Login</li> */}
                 </ul>
               </div>
             </div>
-            <div className="">
+            {/* <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
                   Links
@@ -62,7 +63,7 @@ const Footer = () => {
                   <li className="cursor-pointer">Login</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
@@ -70,15 +71,15 @@ const Footer = () => {
                 </h1>
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-3">
-                    <HiLocationMarker />
+                    <HiLocationMarker className="text-2xl" />
                     <p>Mombasa, Kenya</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
-                    <MdMessage />
+                    <MdEmail className="text-2xl" />
                     <p>info@marineaquaticskenya.co.ke</p>
                   </div>
                   <div className="flex items-center gap-3 mt-3">
-                    <MdCall />
+                    <MdCall className="text-2xl" />
                     <p>+254 XXX-XXX-XXX</p>
                   </div>
                 </div>
