@@ -23,8 +23,8 @@ const Navbar = () => {
             </a>
           </div>
 
-          {/* Navigation Links (Hidden on Small Screens) */}
-          <div className="hidden sm:flex text-white">
+          {/* Navigation Links (Hidden on Small & Medium Screens) */}
+          <div className="hidden md:hidden lg:flex text-white">
             <ul className="flex items-center gap-4 text-xl py-4 sm:py-0">
               <li className="cursor-pointer">
                 <a href="#about">About</a>
@@ -41,15 +41,15 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* Login Button (Hidden on Small Screens) */}
-          {/* <div className="hidden sm:block">
+          {/* Login Button (Hidden on Small & Medium Screens) */}
+          {/* <div className="hidden md:hidden lg:block">
             <button className="text-white border-2 border-white px-3 py-1 rounded-md cursor-pointer">
               Login
             </button>
           </div> */}
 
-          {/* Hamburger Menu (Visible on Small Screens) */}
-          <div className="sm:hidden">
+          {/* Hamburger Menu (Visible on Small & Medium Screens) */}
+          <div className="sm:block md:block lg:hidden">
             <GiHamburgerMenu
               color="#fff"
               fontSize={27}
