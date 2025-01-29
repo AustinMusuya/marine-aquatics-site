@@ -4,10 +4,9 @@ import underwater2 from "./assets/underwater2.jpg"; // Add a placeholder image
 import NavBar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
+import Products from "./components/Products/Products";
 import Banner from "./components/Banner/Banner";
 import Banner2 from "./components/Banner/Banner2";
-import Banner3 from "./components/Banner/Banner3";
-import Banner4 from "./components/Banner/Banner4";
 import Footer from "./components/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -59,10 +58,9 @@ const App = () => {
         {/* Main Content */}
         <main className="flex-grow">
           <Services />
+          <Products />
           <Banner />
           <Banner2 />
-          <Banner3 />
-          <Banner4 />
         </main>
 
         {/* Footer Section */}
