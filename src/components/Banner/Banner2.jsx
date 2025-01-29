@@ -7,15 +7,15 @@ const Banner2 = () => {
         <div className="container">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800">
-                <p data-aos="fade-up" data-aos-delay="300" 
+                <p data-aos="fade-up" data-aos-delay="200" 
                 className="text-sky-800 uppercase">
                     Marine Aquatics Kenya
                 </p>
-                    <h1 data-aos="fade-up" data-aos-delay="500"  
+                    <h1 data-aos="fade-up" data-aos-delay="400"  
                     className="uppercase text-5xl">
                         Our Mission
                     </h1>
-                    <p data-aos="fade-up" data-aos-delay="700">
+                    <p data-aos="fade-up" data-aos-delay="600">
                         To deliver the world’s finest ornamental fish with unmatched care and 
                         efficiency, ensuring their safe arrival to enthusiasts, collectors, 
                         and businesses alike while maintaining sustainability and 

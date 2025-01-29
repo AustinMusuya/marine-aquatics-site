@@ -26,7 +26,7 @@ const ProductsData = [
     title: "Acanthaster planci",
     rating: 4.5,
     color: "Red-White",
-    aosDelay: "200",
+    aosDelay: "100",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const ProductsData = [
     title: "Ornate Wrasse",
     rating: 4.7,
     color: "Green",
-    aosDelay: "400",
+    aosDelay: "300",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const ProductsData = [
     title: "Sunset Anthias",
     rating: 4.4,
     color: "Yellow",
-    aosDelay: "600",
+    aosDelay: "500",
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const ProductsData = [
     title: "Angel Fish",
     rating: 4.5,
     color: "Gold",
-    aosDelay: "800",
+    aosDelay: "700",
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ const ProductsData = [
     title: "Lined Seahorse",
     rating: 4.0,
     color: "Brown",
-    aosDelay: "200",
+    aosDelay: "100",
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ const ProductsData = [
     title: "Yellow Tang",
     rating: 5.0,
     color: "Yellow",
-    aosDelay: "400",
+    aosDelay: "200",
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ const ProductsData = [
     title: "Zebra Shark",
     rating: 5.0,
     color: "Brown",
-    aosDelay: "600",
+    aosDelay: "500",
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ const ProductsData = [
     title: "Lion Fish",
     rating: 4.4,
     color: "Black-White",
-    aosDelay: "800",
+    aosDelay: "700",
   },
 ];
 
@@ -120,7 +120,7 @@ const Products = () => {
               data-aos="fade-up"
               data-aos-delay={data.aosDelay}
               key={data.id}
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.13 }}
             >
               <img
                 src={data.img}

@@ -12,15 +12,15 @@ const Banner = () => {
                     className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-lg" />
                 </div>
                 <div className="space-y-3 xl:pr-36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800">
-                    <p data-aos="fade-up" data-aos-delay="300" 
+                    <p data-aos="fade-up" data-aos-delay="200" 
                     className="text-sky-800 uppercase">
                         Marine Aquatics Kenya
                     </p>
-                    <h1 data-aos="fade-up" data-aos-delay="500" 
+                    <h1 data-aos="fade-up" data-aos-delay="400" 
                     className="uppercase text-5xl">
                         About Us
                     </h1>
-                    <p data-aos="fade-up" data-aos-delay="700">
+                    <p data-aos="fade-up" data-aos-delay="600">
                         At Marine Aquatics, we are passionate about connecting people to the vibrant 
                         beauty of live ornamental fish. 
                         With years of experience in the aquatics industry, we specialize
