@@ -16,7 +16,7 @@ const App = () => {
 
   React.useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 900,
       easing: "ease-in-out",
     });
   }, []);
